@@ -1,0 +1,8 @@
+[build]
+  publish = "/"
+  command = ""
+  
+[[redirects]]
+  from = "/"
+  to = "/index_Version3.html"
+  status = 200
