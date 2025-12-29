@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tananyag — Matematikavilágosán</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Matematikavilágosán</a>
+      <nav class="main-nav">
+        <a href="../index.html">Főoldal</a>
+        <a href="tananyag.html">Tananyag</a>
+        <a href="letoltesek.html">Letöltések</a>
+        <a href="kapcsolat.html">Kapcsolat</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menü">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Tananyagok</h1>
+    <p>Itt találod a témaköröket: válassz egyet a részletes anyagokért és gyakorlófeladatokért.</p>
+
+    <section class="topic-list">
+      <article>
+        <h2>Pitagorasz-tétel</h2>
+        <p>Magyarázat, példák és feladatok.</p>
+      </article>
+
+      <article>
+        <h2>Algebra — bevezető</h2>
+        <p>Változók, egyenletek, kifejezések.</p>
+      </article>
+
+      <article>
+        <h2>Geometria</h2>
+        <p>Alapfogalmak, terület- és kerületszámítás.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Matematikavilágosán</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function(){
+      document.querySelector('.main-nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
