@@ -3,53 +3,43 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Kapcsolat — Matematikavilágosán</title>
+  <title>Kapcsolat — Matematikavilágosan</title>
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="../index.html">Matematikavilágosán</a>
+      <a class="brand" href="../index.html">
+        <img src="../images/logo.png" alt="Matematika világosan" class="logo">
+        <span class="brand-text">Matematika világosan</span>
+      </a>
       <nav class="main-nav">
         <a href="../index.html">Főoldal</a>
+        <a href="rolam.html">Rólam</a>
         <a href="tananyag.html">Tananyag</a>
-        <a href="letoltesek.html">Letöltések</a>
-        <a href="kapcsolat.html">Kapcsolat</a>
+        <a href="letoltesek.html">Letölthető anyagok</a>
+        <a href="kapcsolat.html" class="active">Kapcsolat</a>
       </nav>
       <button class="nav-toggle" aria-label="Menü">☰</button>
     </div>
   </header>
 
   <main class="container">
-    <h1>Kapcsolat</h1>
-    <p>Ha üzenni szeretnél, írd meg az alábbi űrlapon vagy küldj e-mailt:</p>
+    <h1>Lépj kapcsolatba velem</h1>
 
-    <form action="#" method="post" class="contact-form">
-      <label>
-        Név<br>
-        <input type="text" name="name" required>
-      </label>
-      <br><br>
-      <label>
-        E-mail<br>
-        <input type="email" name="email" required>
-      </label>
-      <br><br>
-      <label>
-        Üzenet<br>
-        <textarea name="message" rows="6" required></textarea>
-      </label>
-      <br><br>
-      <button class="btn" type="submit">Küldés</button>
-    </form>
+    <p class="lead"><strong>Írj üzenetet vagy hívj fel - 24 órán belül válaszolok.</strong></p>
 
-    <h2>Elérhetőség</h2>
-    <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+    <h2>Elérhetőségek:</h2>
+    <p>Nyíregyháza és 20 km-es körzete.</p>
+
+    <p>Email: <a href="mailto:torokmihaly@teachers.org">torokmihaly@teachers.org</a></p>
+    <p>Telefon: <a href="tel:+36202839445">+36-20-283-9445</a></p>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 Matematikavilágosán</p>
+      <p>&copy; 2025 Matematikavilágosan</p>
     </div>
   </footer>
 
@@ -57,8 +47,6 @@
     document.querySelector('.nav-toggle').addEventListener('click', function(){
       document.querySelector('.main-nav').classList.toggle('open');
     });
-
-    // Ezek az űrlapok helykitöltők. Ha szeretnéd, bekötöm Netlify Forms-ra vagy egy backend-re.
   </script>
 </body>
 </html>

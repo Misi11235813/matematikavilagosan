@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matematika világosan — Főoldal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Matematika világosan" class="logo">
+        <span class="brand-text">Matematika világosan</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Főoldal</a>
+        <a href="pages/rolam.html">Rólam</a>
+        <a href="pages/tananyag.html">Tananyag</a>
+        <a href="pages/letoltesek.html">Letölthető anyagok</a>
+        <a href="pages/kapcsolat.html">Kapcsolat</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menü">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Matematika világosan — egyéni korrepetálás minden szinten</h1>
+        <p>Gyakorló anyagok, magyarázatok és letölthető feladatlapok diákoknak és tanároknak.</p>
+        <p class="hero-cta">
+          <a class="btn" href="pages/tananyag.html">Tananyagok megtekintése</a>
+          <a class="btn ghost" href="pages/letoltesek.html">Letöltések</a>
+        </p>
+      </div>
+      <img class="hero-img" src="images/hero-placeholder.jpg" alt="Matematika illusztráció">
+    </section>
+
+    <section class="features container">
+      <article>
+        <h2>Átlátható magyarázatok</h2>
+        <p>Rövid, lépésről-lépésre magyarázott témakörök, hogy könnyebben menjen a tanulás.</p>
+      </article>
+      <article>
+        <h2>Feladatok és megoldások</h2>
+        <p>Gyakorlófeladatok szintenként és részletes megoldásokkal.</p>
+      </article>
+      <article>
+        <h2>Letölthető anyagok</h2>
+        <p>PDF feladatlapok és megoldókulcsok, amelyeket kinyomtathatsz az órához.</p>
+      </article>
+    </section>
+
+    <section class="about container" id="about">
+      <h2>Rólam / Az oldal célja</h2>
+      <p>Ez az oldal azért jött létre, hogy a matematika tanulása egyszerűbb, gyakorlatiasabb és élvezetesebb legyen. A tartalmak a Google Sites-on lévő forrás alapján kerülnek át — kérlek küldd el a pontos szöveget és képeket, ha teljes másolatot szeretnél.</p>
+    </section>
+
+    <section class="latest container">
+      <h2>Legfrissebb anyagok</h2>
+      <ul class="cards">
+        <li>
+          <h3>Pitagorasz-tétel — magyarázat és feladatok</h3>
+          <p>Alapok, bizonyítás és gyakorlófeladatok különböző nehézségi szinteken.</p>
+          <a class="link" href="pages/tananyag.html">Megnézem →</a>
+        </li>
+        <li>
+          <h3>Algebra — bevezetés</h3>
+          <p>Változók, kifejezések és egyszerű egyenletek megoldása.</p>
+          <a class="link" href="pages/tananyag.html">Megnézem →</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Matematikavilágosan — Minden jog fentartva.</p>
+      <p><a href="pages/kapcsolat.html">Kapcsolat</a> | <a href="pages/letoltesek.html">Letöltések</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Egyszerű nav toggle mobilra
+    document.querySelector('.nav-toggle').addEventListener('click', function(){
+      document.querySelector('.main-nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
